@@ -1,15 +1,13 @@
 # Huffman-Shannon_fano
 # Aim:
 Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} for its output. 
-Apply the Huffman and Shannon-Fano to this source. 
-Show that by drawing the tree diagram, and 
-Calculate the average code word length, entropy, variance, redundancy, and efficiency.
+Apply the Huffman and Shannon-Fano to this source. Show that draw the tree diagram, the average code word length, Entropy, Variance, Redundancy, Efficiency.
 # Tools Required:
-Python with NumPy and SciPy libraries.
+Python IDE with Numpy and Scipy.
 
-Google Colab
 # Program:
 ```
+#Huffman and Shannon-Fano coding
 import numpy as np
 import math 
 L  = 0
@@ -47,18 +45,18 @@ print(f"Average Codeword Length is : {L}")
 print(f"Entropy is : {hs}")
 print(f"Efficiency is : {eff}")
 print(f"Redudancy is : {red}")
-print(f"Variance is : {var}")
-
-
+print(f"Variance is : {var}")
 ```
 # Calculation:
-![WhatsApp Image 2025-09-13 at 7 02 51 PM](https://github.com/user-attachments/assets/94148689-7fb2-407c-9a1f-467ff9245e2d)
-![WhatsApp Image 2025-09-13 at 7 02 51 PM (1)](https://github.com/user-attachments/assets/344e3df0-4ab0-4030-b304-dc9a6db7c1ac)
+![WhatsApp Image 2025-09-01 at 12 33 13_a5dc81da](https://github.com/user-attachments/assets/17ddac48-1f60-4992-b789-681f5465a5a7)
+![WhatsApp Image 2025-09-01 at 12 33 11_1388be16](https://github.com/user-attachments/assets/8ee3cd3e-b2a3-4bc3-8cff-d302c090fd6b)
+
+
 
 
 # Output
-<img width="588" height="123" alt="Screenshot 2025-09-13 185421" src="https://github.com/user-attachments/assets/58145aa5-f242-446d-8f30-46526d6ba92e" />
+![image](https://github.com/user-attachments/assets/38be31cf-18e4-4dfe-86bf-9da261cb469d)
 
 # Results:
-For the given discrete memoryless source with probabilities {0.125,0.0625,0.25,0.0625,0.125,0.125,0.25}, both Huffman and Shannon–Fano coding were applied. The simulation was carried out in Python (Google Colab). Since the source probabilities are exact powers of two, the codeword lengths match the ideal values, giving zero redundancy and 100% coding efficiency. Both Huffman and Shannon–Fano yield identical results.
 
+The Huffman and Shannon-Fano of the given statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} using python are verified.
